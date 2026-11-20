@@ -27,10 +27,7 @@ for i in range(n):
     
 print(samples)
 
-voltages = {f"V{i+1}": value for i, value in enumerate(samples)}
-print(voltages)
-# {'V1': 4.8, 'V2': 12.1, 'V3': 3.3}
-print(voltages["V2"])  # 12.1
+
 
 def classify(v):
     if v < 11.5:        # example thresholds, change to yours
