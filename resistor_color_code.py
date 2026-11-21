@@ -81,13 +81,4 @@ resistorTolerance = resistance * tolerance
 upperTolerance = resistance + resistorTolerance
 lowertolerance = resistance - resistorTolerance
 print(f'Resistance= {resistance} ohms')
-print(f'Tolerance range ({lowertolerance:.2f} - {upperTolerance:.2f})')
-
-      
-      
-
-
-        
-            
-        
-        
+print(f'Tolerance range ({lowertolerance:.2f} - {upperTolerance:.2f})')     
